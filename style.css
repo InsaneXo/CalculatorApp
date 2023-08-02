@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 9px;
+    margin-bottom: 11px;
+
+    color: white;
+    background: gold;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 23px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    background: black;
+    color: white;
+    margin-bottom: 23px;
+    width: 410px;
+}
+
+.screen input {
+    background: transparent;
+    color: white;
+    font-size: 32px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0 33px;
+
+}
+
+
+.screen p {
+    margin-right: 9px;
+    font-size: 35px;
+}
+
+.button {
+    display: flex;
+    gap: 13px;
+}
+
+.button button {
+    width: 68px;
+    height: 68px;
+    margin: 5px;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    background: #234f4f;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+.box {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+}
+
+
+
+.all-btn {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Zero-btn {
+    padding: 0px 82px;
+    text-align: left;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 424px) {
+
+    .screen {
+        width: 284px;
+    }
+
+    .screen input {
+        font-size: 22px;
+        padding: 0 12px;
+    }
+
+    .heading {
+        font-size: 9px;
+        margin-bottom: 11px;
+    }
+
+    .button button {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .Zero-btn {
+        padding: 0px 62px;
+    }
+
+    .imgtag{
+        top: 78px;
+    }
+
+    
+}
+
